@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramayan Quiz 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+
+<body class=" bg-yellow-500">
+
+    <div class="container mx-auto p-4 text-center">
+
+        <div class="flex justify-between items-center">
+            <a href="./index.html">
+                <img src="https://freepngimg.com/thumb/rama/88667-body-jewelry-ramayana-sita-text-rama.png"
+                    height="200px" width="200px" alt="Ramayan">
+            </a>
+            <div class="flex items-center">
+                <a href="https://www.instagram.com/naman_080" target="_blank" class="text-black text-3xl mx-2">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Naman0807/watch_ramayan/" target="_blank" class="text-black text-3xl mx-2">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <h1 class="text-4xl font-bold text-black mb-4">Ramayan Quiz 1: Introduction to Ramayan</h1>
+
+        <form action="#" method="post" class="max-w-xl mx-auto p-8 bg-white rounded-md shadow-md">
+
+            <div class="mb-8">
+                <p class="text-xl font-bold text-gray-800 mb-4">Question 1: Who is the author of the Ramayan?</p>
+                <div class="flex flex-col space-y-2">
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q1" value="a" class="mr-2">
+                        <span class="ml-1">a) Tulsidas</span>
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q1" value="b" class="mr-2">
+                        <span class="ml-1">b) Valmiki</span>
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q1" value="c" class="mr-2">
+                        <span class="ml-1">c) Vyasa</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="mb-6 border-b-2 pb-4">
+                <p class="text-lg font-bold text-gray-800">Question 2: In which city was Lord Rama born?</p>
+                <div class="flex flex-col space-y-2">
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q2" value="a" class="mr-2">
+                        a) Mathura
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q2" value="b" class="mr-2">
+                        b) Varanasi
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q2" value="c" class="mr-2">
+                        c) Ayodhya
+                    </label>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="mb-6 border-b-2 pb-4">
+                <p class="text-lg font-bold text-gray-800">Question 3: Who is Lord Rama's faithful companion in the
+                    Ramayan?</p>
+                <div class="flex flex-col space-y-2">
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q3" value="a" class="mr-2">
+                        a) Hanuman
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q3" value="b" class="mr-2">
+                        b) Sugriva
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q3" value="c" class="mr-2">
+                        c) Vali
+                    </label>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="mb-6 border-b-2 pb-4">
+                <p class="text-lg font-bold text-gray-800">Question 4: What is the name of Lord Rama's bow?</p>
+                <div class="flex flex-col space-y-2">
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q4" value="a" class="mr-2">
+                        a) Gandiva
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q4" value="b" class="mr-2">
+                        b) Pinaka
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q4" value="c" class="mr-2">
+                        c) Sharang
+                    </label>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="mb-6 border-b-2 pb-4">
+                <p class="text-lg font-bold text-gray-800">Question 5: What is the name of Lord Rama's mother?</p>
+                <div class="flex flex-col space-y-2">
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q5" value="a" class="mr-2">
+                        a) Kaushalya
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q5" value="b" class="mr-2">
+                        b) Sumitra
+                    </label>
+                    <label class="flex items-center cursor-pointer hover:text-yellow-600 border p-2 rounded-md">
+                        <input type="radio" name="q5" value="c" class="mr-2">
+                        c) Kaikeyi
+                    </label>
+                </div>
+            </div>
+
+            <!-- Add more questions as needed -->
+
+            <button type="submit"
+                class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full inline-block transition duration-300 mb-4">Submit
+                Answers</button>
+
+
+            <div id="quizResult" class="text-lg font-bold text-gray-800"></div>
+        </form>
+
+
+
+        <!-- Footer -->
+        <p class="mt-4"><a href="./index.html" class="text-black">Back to Home</a></p>
+        <hr class="my-8">
+        <footer class="mt-4 text-center">
+            <div class="foot">
+                <h1 class="text-2xl">Made by <a href="https://naman0807.github.io/myself/" target="_blank"
+                        class="underline">Naman</a>
+                    with ❤</h1>
+            </div>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('form');
+            const quizResultDiv = document.getElementById('quizResult');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                // Get selected answers
+                const answers = {
+                    q1: document.querySelector('input[name="q1"]:checked'),
+                    q2: document.querySelector('input[name="q2"]:checked'),
+                    q3: document.querySelector('input[name="q3"]:checked'),
+                    q4: document.querySelector('input[name="q4"]:checked'),
+                    q5: document.querySelector('input[name="q5"]:checked'),
+                    // Add more questions as needed
+                };
+
+                // Correct answers
+                const correctAnswers = {
+                    q1: 'b',
+                    q2: 'c',
+                    q3: 'a',
+                    q4: 'c',
+                    q5: 'a',
+                    // Add more correct answers as needed
+                };
+
+                // Check answers
+                let score = 0;
+                for (const question in answers) {
+                    const answerElement = answers[question];
+                    const userAnswer = answerElement ? answerElement.value : null;
+
+                    // Highlight correct and incorrect answers
+                    if (userAnswer === correctAnswers[question]) {
+                        answerElement.parentElement.classList.add('text-green-600'); // Highlight correct answer in green
+                    } else {
+                        answerElement.parentElement.classList.add('text-red-600'); // Highlight incorrect answer in red
+                        answerElement.parentElement.innerHTML += `<span class="text-green-600 ml-2">(Correct answer: ${correctAnswers[question]})</span>`;
+                    }
+
+                    if (userAnswer === correctAnswers[question]) {
+                        score++;
+                    }
+                }
+
+                // Display score
+                quizResultDiv.innerHTML = `<p class="text-lg font-bold text-gray-800">Your score: ${score} out of ${Object.keys(answers).length}</p>`;
+            });
+        });
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BNC60ZWM1K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BNC60ZWM1K');
+    </script>
+</body>
+
+</html>

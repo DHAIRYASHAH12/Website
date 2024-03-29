@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    color: #006400;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+button {
+    background-color: #006400;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#countdown-timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #006400;
+}
